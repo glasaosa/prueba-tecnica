@@ -1,0 +1,12 @@
+springdoc:
+  swagger-ui:
+    path: /api-doc
+    enabled: true
+spring:
+  datasource:
+    url: jdbc:h2:mem:account
+    driverClassName: org.h2.Driver
+    password: pass
+    username: sa
+  jpa:
+    generate-ddl: true
